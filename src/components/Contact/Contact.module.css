@@ -62,3 +62,37 @@
     align-items: center;
   }
 }
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link {
+    margin: 10px 0;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .text h2 {
+    font-size: 1.5em;
+  }
+
+  .text p {
+    font-size: 1em;
+  }
+
+  .link img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .link a {
+    font-size: 0.9em;
+  }
+}
+
